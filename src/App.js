@@ -4,16 +4,20 @@ import MainSection from './components/MainSection';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import React from 'react';
+import Home from './components/pages/Home';
+import Locations from './components/pages/Locations';
 
 function App() {
   return (
     <BrowserRouter className="App">
       <Navbar></Navbar>
       <Routes>
-        <Route
+      <Route
           path="/"
           element={<MainSection />}
         />
+      <Route path="/" element={<Home />}/>
+      <Route path="/locations" element={<Locations />}/>
       </Routes>
     </BrowserRouter>
   );
