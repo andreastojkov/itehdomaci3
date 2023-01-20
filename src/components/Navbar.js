@@ -16,13 +16,6 @@ function Navbar() {
                 Početna
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'>
-                Usluge
-              </Link>
-            </li>
             <li>
               <Link
                 to='/appointments'
