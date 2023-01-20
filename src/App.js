@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import React from 'react';
 import Home from './components/pages/Home';
 import Locations from './components/pages/Locations';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/locations" element={<Locations />}/>
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
   );
 }
