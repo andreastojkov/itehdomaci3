@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards({data1, data2, title, type}) {
+function Cards({data1, data2, type}) {
 
 
   return (

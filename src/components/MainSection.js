@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 import './MainSection.css';
 import Cards from './Cards';
-import { Button } from './Button';
 import Image1 from '../assets/img1.jpg';
 import Image2 from '../assets/img2.jpg';
 import Image3 from '../assets/img3.jpg';
@@ -33,13 +32,13 @@ function MainSection() {
       <h1>DOMOVI ZDRAVLJA</h1>
       <p>Brinite o svom zdravlju</p>
       <div className='main-btns'>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
          LOKACIJE
-        </Button>
+        </Button> */}
       </div>
     </div>
     <div className='main-text'>

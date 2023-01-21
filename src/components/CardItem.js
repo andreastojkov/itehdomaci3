@@ -18,13 +18,11 @@ function CardItem({obj, type}) {
             {type == 'clients' ? <></> : 
               <div>
                 <ul>
-                  {/* <li><i class="fas fa-star"></i></li>
-                  <li><p className='star-number'>{Math.floor((Math.random() * 5) + 1)}</p></li> */}
-                  <li>
-                    <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--medium' link='/locations'>
-                      IDI NA NJIHOV SAJT
-                    </Button>
-                  </li>
+                  {/* <li> */}
+                    {/* <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--medium'>
+                     KOMPLETAN SPISAK
+                    </Button> */}
+                  {/* </li> */}
                 </ul>
 
 
