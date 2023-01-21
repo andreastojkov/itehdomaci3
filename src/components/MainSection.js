@@ -31,15 +31,6 @@ function MainSection() {
       <image src='../assets/bckg.jpg'/>
       <h1>DOMOVI ZDRAVLJA</h1>
       <p>Brinite o svom zdravlju</p>
-      <div className='main-btns'>
-        {/* <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-         LOKACIJE
-        </Button> */}
-      </div>
     </div>
     <div className='main-text'>
     <h1>KO SMO MI</h1>

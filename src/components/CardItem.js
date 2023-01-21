@@ -15,20 +15,6 @@ function CardItem({obj, type}) {
           <div className='cards__item__info'>
             <p className='cards__item__text'>{obj.text}</p>
             {type == 'clients' ? <h5 className='cards__item__title'>{obj.name}</h5> : <></> }
-            {type == 'clients' ? <></> : 
-              <div>
-                <ul>
-                  {/* <li> */}
-                    {/* <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--medium'>
-                     KOMPLETAN SPISAK
-                    </Button> */}
-                  {/* </li> */}
-                </ul>
-
-
-              </div>
-
-             }
           </div>
         </div>
       </li>
